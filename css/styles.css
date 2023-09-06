@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+footer{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    background-color: #8B0000;
+    color: white;
+    padding: 10px 0px;
+    width: 100%;
+    position: relative;  
+    bottom: 0;
+}
+
+.filme {
+    border: 1px solid #8B0000;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    max-width: 300px;
+    width: calc(25% - 20px); 
+    margin: 0 10px 20px;
+}
+
+.filme img {
+    max-width: 100%;
+    height: auto;
+}
+
+.filme-details {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+}
+
+.detalhes-btn {
+    background-color: #FFD700;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: 550; 
+}
+
+#ImgDetails{
+    width: 400px;
+    height: 600px;
+
+}
+
+h1{
+    font-size: 85px;
+    text-align: center;  
+    font-family: 'Cinzel', serif; 
+}
+
+h2,p{
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: flex-start;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    flex: 1;
+}
+
+.catalog-title {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px; 
+    color: #FFD700;
+}
+
+/*começo do header*/
+
+#header {
+    opacity: 1;
+    background-color: #8B0000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.hbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 10%; /* Garante que a imagem do logotipo não ultrapasse a largura do contêiner */
+    height: auto; /* Evita que a imagem fique distorcida */
+}
+
+.main-header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-header a {
+    color: #fff; /* Cor dos links no cabeçalho */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.main-header a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre os links */
+}
+
+#searchform {
+    display: flex;
+    align-items: center;
+}
+
+#s {
+    padding: 10px;
+    border: 1px solid #ccc; /* Estilo da borda da caixa de pesquisa */
+}
+
+
+
+/*fim do header*/
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+footer{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    background-color: #8B0000;
+    color: white;
+    padding: 10px 0px;
+    width: 100%;
+    position: relative;  
+    bottom: 0;
+}
+
+.filme {
+    border: 1px solid #8B0000;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    max-width: 300px;
+    width: calc(25% - 20px); 
+    margin: 0 10px 20px;
+}
+
+.filme img {
+    max-width: 100%;
+    height: auto;
+}
+
+.filme-details {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+}
+
+.detalhes-btn {
+    background-color: #FFD700;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: 550; 
+}
+
+#ImgDetails{
+    width: 400px;
+    height: 600px;
+
+}
+
+h1{
+    font-size: 85px;
+    text-align: center;  
+    font-family: 'Cinzel', serif; 
+}
+
+h2,p{
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: flex-start;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    flex: 1;
+}
+
+.catalog-title {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px; 
+    color: #FFD700;
+}
+
