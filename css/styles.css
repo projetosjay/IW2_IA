@@ -5,6 +5,7 @@
     
 }
 
+
 html,body {
     height: 100%;
     margin: 0;
@@ -12,6 +13,20 @@ html,body {
     font-family: 'Playfair Display', serif;
     background-color: black;
 }
+
+section {
+    margin-bottom: 20px;
+  }
+
+.navbar-icon {
+    margin-right: 10px;
+  }
+  
+  .navbar-icon img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
 
 nav ul {
     list-style: none;
